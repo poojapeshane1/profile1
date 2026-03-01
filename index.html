@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pooja Peshane | Cybersecurity Program Leader</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="logo">Pooja Peshane</div>
+  <div class="links">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="about">
+  <div class="hero-left">
+    <h1>
+      Cybersecurity<br>
+      <span>Program Leader</span>
+    </h1>
+    <p>
+      Driving structured cybersecurity programs with governance clarity,
+      executive visibility, and disciplined enterprise execution.
+    </p>
+    <a href="#work" class="primary-btn">Explore My Work</a>
+  </div>
+
+  <div class="hero-right">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt1hruPe2fyrZmnckY1x--wgHqy-LUsehmXQ&s" alt="Pooja Peshane">
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section class="section">
+  <h2>Impact Snapshot</h2>
+
+  <div class="impact-grid">
+
+    <div class="impact-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/921/921347.png" alt="Professional Woman">
+      <strong>8+ Years</strong>
+      <span>Enterprise IT Programs</span>
+    </div>
+
+    <div class="impact-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2721/2721293.png" alt="Laptop Cyber Governance">
+      <strong>Cyber Governance</strong>
+      <span>Structured Delivery</span>
+    </div>
+
+    <div class="impact-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png" alt="Stakeholder">
+      <strong>Cross-Regional</strong>
+      <span>Stakeholder Alignment</span>
+    </div>
+
+    <div class="impact-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Risk">
+      <strong>Risk Visibility</strong>
+      <span>Predictable Execution</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="section" id="work">
+  <h2>What I Do</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>Cybersecurity Program Delivery</h3>
+      <p>Structured execution across enterprise cyber initiatives ensuring risk transparency and milestone clarity.</p>
+      <a href="https://poojapeshane1.blogspot.com/2026/03/project-management.html">View Insights →</a>
+    </div>
+
+    <div class="card">
+      <h3>Project Management</h3>
+      <p>Cross-functional program leadership with governance discipline and executive-level reporting precision.</p>
+      <a href="https://poojapeshane1.blogspot.com/2026/03/cybersecurity-program-delivery.html">View Insights →</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <h2>Interactive Cyber Tools</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>Incident Escalation Advisor</h3>
+      <p>Structured impact summaries and escalation tier intelligence.</p>
+      <a href="#">View Model →</a>
+    </div>
+
+    <div class="card">
+      <h3>Risk Governance Structuring</h3>
+      <p>Converts raw concerns into structured risk statements.</p>
+      <a href="#">View Model →</a>
+    </div>
+
+    <div class="card">
+      <h3>Program Status Tracker</h3>
+      <p>Governance milestone & risk visibility framework.</p>
+      <a href="#">View Model →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+  <h2>Let’s Connect</h2>
+
+  <form name="contact" method="POST" data-netlify="true" class="contact-form">
+    <input type="hidden" name="form-name" value="contact">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message"></textarea>
+    <button type="submit" class="primary-btn">Send Message</button>
+  </form>
+
+  <div class="social-links">
+    <a href="https://linkedin.com/in/pooja-peshane-b99716144" target="_blank">LinkedIn</a>
+    <a href="mailto:poojapeshane1@gmail.com">Email</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Pooja Peshane
+</footer>
+<!-- CHATBOT -->
+<div id="chatbot-button">💬</div>
+
+<div id="chatbot">
+  <div class="chat-header">
+    Cyber Assistant
+    <span onclick="toggleChat()">✖</span>
+  </div>
+  <div class="chat-body">
+    <p>Hello 👋 I’m Pooja 
+    <br>Lets connect to talk about cybersecurity programs, project leadership
+	</p>
+  </div>
+</div>
+
+<script>
+function toggleChat(){
+  const chat = document.getElementById("chatbot");
+  chat.style.display = chat.style.display === "block" ? "none" : "block";
+}
+
+document.getElementById("chatbot-button").onclick = toggleChat;
+</script>
+</body>
+</html>
